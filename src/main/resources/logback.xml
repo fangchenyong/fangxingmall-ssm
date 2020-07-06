@@ -11,10 +11,9 @@
     </appender>
 
     <appender name="fangxingmall" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <!--<File>e:/log/fangxingmall.log</File>-->
-        <File>/developer/apache-tomcat-7.0.73/logs/fangxingmall.log</File>
+        <File>e:/log/fangxingmall.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/developer/apache-tomcat-7.0.73/logs/mmall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>e:/log/fangxingmall.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
@@ -25,11 +24,9 @@
 
 
     <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <!--<File>d:/log/error.log</File>-->
-        <File>/developer/apache-tomcat-7.0.73/logs/error.log</File>
+        <File>e:/log/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/devsoft/apache-tomcat-7.0.73/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
-            <!--<fileNamePattern>d:/log/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
+            <fileNamePattern>e:/log/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
