@@ -3,6 +3,9 @@ package com.fangxingmall.service;
 import com.fangxingmall.common.ServerResponse;
 import com.fangxingmall.pojo.User;
 
+/**
+ * @author 10136
+ */
 public interface IUserService {
     /**
      * 用户登录

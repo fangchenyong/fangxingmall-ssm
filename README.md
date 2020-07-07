@@ -515,6 +515,46 @@
 
 ## 五、分类模块
 
+### 5.1、获取节点
+
+1. 接口地址：**/manage/user/logout.do**
+2. 请求参数：无
+3. 返回参数：
+    - success
+    - fail
+
+### 5.2、增加节点
+
+1. 接口地址：**/manage/user/logout.do**
+2. 请求参数：无
+3. 返回参数：
+    - success
+    - fail
+
+### 5.3、修改名字
+
+1. 接口地址：**/manage/user/logout.do**
+2. 请求参数：无
+3. 返回参数：
+    - success
+    - fail
+
+### 5.4、获取分类ID
+
+1. 接口地址：**/manage/user/logout.do**
+2. 请求参数：无
+3. 返回参数：
+    - success
+    - fail
+
+### 5.5、递归子节点ID
+
+1. 接口地址：**/manage/user/logout.do**
+2. 请求参数：无
+3. 返回参数：
+    - success
+    - fail
+
 ## 六、商品模块
 
 ## 购物车模块
